@@ -1,0 +1,150 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Bhushan",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "mumbai"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address": {
+        "area": "nashik"
+      }
+    },
+    {
+      "id": "Jhon1",
+      "name": "",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "other",
+      "isactive": true,
+      "address": {
+        "area": "USA"
+      }
+    },
+    {
+      "id": "me",
+      "name": "kirti",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "female",
+      "role": "teacher",
+      "isactive": true,
+      "address": {
+        "area": "pune"
+      }
+    },
+    {
+      "id": "bhushan1",
+      "name": "Bhushan ",
+      "password": "BBHUshan123@#",
+      "email": "bhushan2@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "BhushanUser",
+      "name": "Bhushan098",
+      "password": "Bhushan098@",
+      "email": "bhushan123@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "500e"
+    },
+    {
+      "code": "tech",
+      "name": "Technician",
+      "id": "b710"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "8ffc"
+    },
+    {
+      "code": "customer",
+      "name": "Customer",
+      "id": "78e0"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "2aa0"
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "b39f"
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false,
+      "id": "f21a"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false,
+      "id": "71bf"
+    }
+  ],
+  "customer": [
+    {
+      "id": "1",
+      "name": "Bhushan"
+    },
+    {
+      "id": "2",
+      "name": "rahul"
+    },
+    {
+      "id": "3",
+      "name": "akash"
+    },
+    {
+      "id": "4",
+      "name": "sandip"
+    },
+    {
+      "id": "5",
+      "name": "sam"
+    }
+  ]
+}
